@@ -1,0 +1,132 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+ }
+ 
+ body{
+    background-color: rgb(196, 161, 161);
+ }
+ 
+ .main-content{
+   min-height: 100vh;
+   width: 80%;
+   margin: 2rem auto;
+   background-color: rgb(116, 76, 76);
+   display: grid;
+   grid-template-columns: repeat(7, 1fr);
+ }
+ 
+ .left-section{
+   grid-column: span 2;
+   height: 100%;
+   background-color: rgb(145, 109, 109);
+   border-radius: 80px;
+   border: white solid;
+ }
+ 
+ .right-section{
+   grid-column: span 5;
+   background-color: rgb(121, 77, 77);
+   height: 100%;
+ }
+
+
+ .left-content{
+    padding: 1rem 2rem;
+ }
+ .profile{
+    width: 200px;
+    height: 210px;
+    border: white solid;
+ }
+
+ .profile img{
+    width: 192px;
+    height: 195px;
+    border-radius: 5px;
+    border: 5px solid #a06f6f;
+    margin-left: 20px;
+    margin-bottom: 200px;
+ }
+
+ .name{
+    font-size: 4rem;
+    color: white;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    padding: 1rem 0;
+    font-family: cursive;
+    border-top: #c5a1a1 solid;
+ }
+
+ .career{
+    font-size: 3rem;
+    color: rgb(214, 208, 208);
+    text-align: center;
+    letter-spacing: 1px;
+    font-style: italic;
+ }
+
+ .main-title{
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: #f7f7f7ec;
+    padding-top: 2rem;
+    text-align: center;
+    margin-top: 20px;
+ }
+
+.contact-info ul{
+   padding: 2rem 0;
+}
+
+.contact-info ul li{
+   padding: 4rem 0;
+   display: flex;
+   align-items: center;
+   color: #7fccda;
+   border-bottom: white 1px solid;
+   font-style: italic;
+}
+
+.contact-info ul li i{
+   padding-right: 1rem;
+   font-size: 2rem;
+   color: rgb(99, 46, 46);
+}
+ 
+
+.information p{
+   color: #c4adad;
+   margin-left: 20px;
+   margin-bottom: 10px;
+
+}
+.information h3{
+   color: whitesmoke;
+   font-family: cursive;
+   font-size: x-large;
+   margin-left: 20px;
+
+}
+
+.information h2{
+   font-size: medium;
+   color: #c4adad;
+   margin-inline: 100px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: large;
+   margin-bottom: 20px;
+   margin-top: 10px;
+   font-style: italic;
+}
+
+.information h1{
+   font-family: monospace;
+   margin-left: 30px;
+   font-size: 25px;
+   margin-top: 10px;
+}
